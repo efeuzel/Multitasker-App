@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Task" representedClassName="Task" syncable="YES" codeGenerationType="class">
+        <attribute name="dateAdded" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dueLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dueLocationDescription" optional="YES" attributeType="String"/>
+        <attribute name="dueLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="queue" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="region" optional="YES" attributeType="Transformable"/>
+        <attribute name="text" attributeType="String" defaultValueString=""/>
+    </entity>
+    <elements>
+        <element name="Task" positionX="-63" positionY="-18" width="128" height="178"/>
+    </elements>
+</model>
